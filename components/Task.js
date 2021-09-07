@@ -22,6 +22,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'space-between',
         marginBottom: 15,
+        shadowColor: 'black',
+        shadowOffset: {width: 5, height: -5},
+        shadowOpacity: 0.9,
     },
     itemLeft: {
         flexDirection: 'row',
