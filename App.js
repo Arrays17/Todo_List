@@ -12,7 +12,8 @@ export default function App() {
         <Text style={styles.sectionTitle}>Today's Tasks</Text>
 
         <View style={styles.items}>
-          {/*Tasks */}
+          {/*Individual Tasks */}
+          <Task text={'Lorem Ipsum'}/>
           <Task text={'Lorem Ipsum'}/>
         </View>
       </View>
@@ -28,13 +29,13 @@ const styles = StyleSheet.create({
   tasksWrapper: {
     paddingTop: 80,
     paddingLeft: 20,
+    paddingRight: 20,
   },
   sectionTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    paddingBottom: 20,
   },
   items: {
-
+    marginTop: 20,
   },
 });
